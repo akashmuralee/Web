@@ -1,19 +1,50 @@
-button{
-    font-size: 70px;
-    width: 80px;
-    height: 80px;
-    border-radius: 8px;
-    background-color: snow;
-    border: 2px solid black;
-    margin: 3px;
-
+h1{
+    font-family: cursive;
+    font-size: 50px;
+    margin-left: 135px;
 }
 
-#bg{
-    background-color: black;
-    float: left;
+button{
+    font-size: 70px;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: snow;
+    border: 2px groove black;
+    margin: 5px;
+
 }
 
 .op{
-    background-color: mintcream;
+    background-color: rgb(167, 206, 211);
 }
+
+#buttons{
+    background-color: rgb(100, 237, 214);
+    width: 270px;
+    height: 345px ;
+    border: 2px solid black;
+    margin-left: 302px;
+    padding-left:5px ;
+}
+
+
+#screen{
+    background-color: rgb(51, 236, 165);
+    width: 300px;
+    height: 345px;
+    border: 2px solid black;
+    text-align: right;
+    font-family: cursive;
+    font-size: 40px;
+    float: left;
+   
+}
+#input{
+    height: 272px;
+}
+#result{
+    border-top: 2px solid black;
+    height: 55px;
+}
+
