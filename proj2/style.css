@@ -1,0 +1,26 @@
+
+*{
+
+	font-family: Helvetica;
+	font-weight: bold;
+
+}
+
+h1{
+	font-size: 100px;
+	color:khaki;
+	text-align: center;
+}
+
+h2{
+	font-size: 32px;
+	color: white;
+}
+
+p{
+	font-weight: normal;
+}
+
+span{
+	color: blue
+}
