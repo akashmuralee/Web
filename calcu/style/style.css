@@ -1,50 +1,59 @@
 h1{
     font-family: cursive;
-    font-size: 50px;
-    margin-left: 135px;
+    font-size: 60px;
+    margin-left: 160px;
+}
+
+#buttons{
+    background-color: rgb(100, 237, 214);
+    width: 450px;
+    height: 345px ;
+    border: 4px groove black;
+    margin-left: 302px;
+    padding-left:5px ;
 }
 
 button{
-    font-size: 70px;
+    font-size: 50px;
+    font-family: Helvetica;
     width: 75px;
     height: 75px;
     border-radius: 10px;
     background-color: snow;
-    border: 2px groove black;
+    border: 1px emboss black;
     margin: 5px;
+}
 
+#res{
+    background-color: lightgreen;
+    margin-left: 94px;
 }
 
 .op{
     background-color: rgb(167, 206, 211);
 }
 
-#buttons{
-    background-color: rgb(100, 237, 214);
-    width: 270px;
-    height: 345px ;
-    border: 2px solid black;
-    margin-left: 302px;
-    padding-left:5px ;
-}
-
 
 #screen{
     background-color: rgb(51, 236, 165);
-    width: 300px;
+    width: 302px;
     height: 345px;
-    border: 2px solid black;
+    border: 4px groove black;
     text-align: right;
     font-family: cursive;
     font-size: 40px;
     float: left;
-   
 }
 #input{
     height: 272px;
+    width: 300px;
+    overflow: auto;
 }
 #result{
     border-top: 2px solid black;
-    height: 55px;
+    height: 70px;
+    width: 300px;
+    padding-right: 4px;
+    overflow: auto;
 }
 
