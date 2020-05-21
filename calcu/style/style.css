@@ -1,3 +1,4 @@
+
 h1{
     font-family: cursive;
     font-size: 60px;
@@ -5,10 +6,10 @@ h1{
 }
 
 #buttons{
-    background-color: rgb(100, 237, 214);
+   /* background-color: #3d5af1;*/
     width: 450px;
     height: 345px ;
-    border: 4px groove black;
+    border: 4px emboss white;
     margin-left: 302px;
     padding-left:5px ;
 }
@@ -18,24 +19,29 @@ button{
     font-family: Helvetica;
     width: 75px;
     height: 75px;
-    border-radius: 10px;
-    background-color: snow;
-    border: 1px emboss black;
+    border-color: black;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-color: #22d1ee;
     margin: 5px;
 }
 
 #res{
     background-color: lightgreen;
-    margin-left: 94px;
+
 }
 
+#ce{
+    font-size: 40px;
+}
 .op{
-    background-color: rgb(167, 206, 211);
+    background-color: #0e153a;
+    color: white;
 }
 
 
 #screen{
-    background-color: rgb(51, 236, 165);
+    background-color: #e2f3f5;
     width: 302px;
     height: 345px;
     border: 4px groove black;

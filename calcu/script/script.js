@@ -15,3 +15,7 @@ function calc(){
     else
     document.getElementById("result").innerHTML =eval(document.getElementById("input").innerHTML);
 }
+
+function ce(){
+    document.getElementById("input").innerHTML =eval(document.getElementById("input").innerHTML.slice(0,-1));
+}
